@@ -1,6 +1,5 @@
-# BoiTus (BOIlerstaTUS)
-This simply RP2040 board delivers the status of the ANEWAND boiler via a single
-GPIO pin linked to the operation hour meter.
+# S0 Conter via USB (s0counter-usb)
+This simply RP2040 board delivers multiple counters of S0 interfaces.
 
 
 # hardware
