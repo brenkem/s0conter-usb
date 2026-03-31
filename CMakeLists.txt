@@ -8,6 +8,8 @@ project(s0counter_usb C CXX ASM)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
+set(PICO_PLATFORM rp2040)
+set(PICO_BOARD pico)
 pico_sdk_init()
 
 add_executable(s0counter-usb s0counter-usb.c)

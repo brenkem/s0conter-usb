@@ -11,6 +11,7 @@ https://www.waveshare.com/rp2040-zero.htm
 ## prepare for build
     mkdir build
     cd build
+    export PICO_SDK_PATH="../../pico-sdk"
     cmake ..
 ## build/rebuild
     make
@@ -23,4 +24,6 @@ https://www.waveshare.com/rp2040-zero.htm
 
 
 # used pinout
-    X1 = 13;
+    PIN_S0_1 = 2; // PCB Pin 4
+    PIN_S0_2 = 6; // PCB Pin 9
+    PIN_S0_3 = 9; // PCB Pin 12
